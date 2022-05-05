@@ -1,0 +1,205 @@
+/* Book.module.css */
+
+.book {
+  display: table;
+  overflow: hidden;
+}
+
+.title {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.link_detail_title {
+  color: #0a222e;
+}
+
+.author {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.link_detail_author {
+  color: #28546a;
+}
+
+.created {
+  color: #999999;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.tooltips {
+  color: #999999;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.link_url {
+  font-size: 12px;
+}
+
+.button_url {
+  margin-right: 5px;
+}
+
+.button_edit {
+  margin-right: 5px;
+}
+/* 책 추가하기 */
+/* Add.module.css */
+
+.bg {
+  width: 100%;
+}
+
+.add {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input_title {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 40px;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.input_comment {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.input_author {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.input_url {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.required {
+  color: #971931;
+}
+
+.input_area {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.input {
+  width: 720px;
+  border-radius: 1px;
+  border-width: 1px;
+  font-family: Roboto;
+  margin-left: 40px;
+  margin-right: 40px;
+  min-height: 100;
+}
+
+.button_area {
+  text-align: right;
+  padding-right: 40px;
+  margin-top: 20px;
+}
+
+.button {
+  border-color: #28546a;
+  background-color: #28546a;
+  text-transform: uppercase;
+  border-radius: 1px;
+  border-width: 2px;
+  color: white;
+  width: 120px;
+}
+
+.button:hover {
+  background-color: #28546a;
+  color: white;
+}
+
+.button_logout {
+  border-color: #28546a;
+  background-color: #28546a;
+  text-transform: uppercase;
+  border-radius: 1px;
+  border-width: 2px;
+  color: white;
+}
+/* 책 삭제하기 */
+
+/* Book.module.css */
+.book {
+  display: table;
+  overflow: hidden;
+}
+.title {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.link_detail_title {
+  color: #0a222e;
+}
+.author {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.link_detail_author {
+  color: #28546a;
+}
+.created {
+  color: #999999;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.tooltips {
+  color: #999999;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.link_url {
+  font-size: 12px;
+}
+.button_url {
+  margin-right: 5px;
+}
+.button_edit {
+  margin-right: 5px;
+}
